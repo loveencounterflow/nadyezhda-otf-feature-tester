@@ -70,6 +70,7 @@ and rank among the most popular Russian female given names.
 
 The special test string is:
 
+```
 aa ab ac ad ae af ag ah ai aj ak al am
 an ao ap aq ar as at au av aw ax ay az
 ba bb bc bd be bf bg bh bi bj bk bl bm
@@ -80,10 +81,12 @@ da db dc dd de df dg dh di dj dk dl dm
 dn do dp dq dr ds dt du dv dw dx dy dz
 ea eb ec ed ee ef eg eh ei ej ek el em
 en eo ep eq er es et eu ev ew ex ey ez
+```
 
 The following is the Adobe AFDKO source code for the features
 defined in the font:
 
+```
 feature aalt { feature abvf; feature abvm; feature abvs; feature afrc; feature akhn; feature blwf; feature blwm; feature blws; feature c2pc; feature c2sc; feature calt; feature case; feature ccmp; feature clig; feature cjct; feature cpsp; feature cswh; feature curs; feature dflt; feature dist; feature dlig; feature dnom; feature expt; feature falt; feature fin2; feature fin3; feature fina; feature frac; feature fwid; feature half; feature haln; feature halt; feature hist; feature hkna; feature hlig; feature hngl; feature hojo; feature hwid; feature init; feature isol; feature ital; feature jalt; feature jp78; feature jp83; feature jp90; feature jp04; feature kern; feature lfbd; feature liga; feature ljmo; feature lnum; feature locl; feature mark; feature med2; feature medi; feature mgrk; feature mkmk; feature mset; feature nalt; feature nlck; feature nukt; feature numr; feature onum; feature opbd; feature ordn; feature ornm; feature palt; feature pcap; feature pnum; feature pref; feature pres; feature pstf; feature psts; feature pwid; feature qwid; feature rand; feature rkrf; feature rlig; feature rphf; feature rtbd; feature rtla; feature ruby; feature salt; feature sinf; feature size; feature smcp; feature smpl; feature ss01; feature ss02; feature ss03; feature ss04; feature ss05; feature ss06; feature ss07; feature ss08; feature ss09; feature ss10; feature ss11; feature ss12; feature ss13; feature ss14; feature ss15; feature ss16; feature ss17; feature ss18; feature ss19; feature ss20; feature ss21; feature ss22; feature subs; feature sups; feature swsh; feature titl; feature tjmo; feature tnam; feature tnum; feature trad; feature twid; feature unic; feature valt; feature vatu; feature vert; feature vhal; feature vjmo; feature vkna; feature vkrn; feature vpal; feature vrt2; feature zero; } aalt;
 feature abvf { sub a b by a_b_v_f; } abvf;
 feature abvm { sub a c by a_b_v_m; } abvm;
@@ -214,3 +217,6 @@ feature vkrn { sub e w by v_k_r_n; } vkrn;
 feature vpal { sub e x by v_p_a_l; } vpal;
 feature vrt2 { sub e y by v_r_t_two; } vrt2;
 feature zero { sub e z by z_e_r_o; } zero;
+```
+
+
